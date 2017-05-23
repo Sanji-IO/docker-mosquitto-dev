@@ -17,3 +17,5 @@ RUN apt-get update && \
 		uthash-dev \
 		uuid-dev && \
 	rm -rf /var/lib/apt/lists/*
+
+RUN [ "cross-build-end" ]
