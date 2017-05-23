@@ -15,6 +15,7 @@ RUN apt-get update && \
 		libwebsockets-dev \
 		python-all \
 		uthash-dev \
+		debhelper \
 		uuid-dev && \
 	rm -rf /var/lib/apt/lists/*
 
