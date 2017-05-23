@@ -1,5 +1,7 @@
 FROM resin/armv7hf-debian-qemu
 
+ADD qemu-arm-static /usr/bin/qemu-arm-static
+
 RUN [ "cross-build-start" ]
 
 RUN apt-get update && \
