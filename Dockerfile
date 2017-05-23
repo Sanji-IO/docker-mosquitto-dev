@@ -14,5 +14,6 @@ RUN apt-get update && \
 		python-all \
 		uthash-dev \
 		debhelper \
+		fakeroot \
 		uuid-dev && \
 	rm -rf /var/lib/apt/lists/*
