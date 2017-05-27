@@ -15,5 +15,7 @@ RUN apt-get update && \
 		uthash-dev \
 		debhelper \
 		fakeroot \
+                docbook-xsl \
+                xsltproc \
 		uuid-dev && \
 	rm -rf /var/lib/apt/lists/*
